@@ -1,0 +1,10 @@
+package com.island.animals.herbivores;
+
+import com.island.animals.Herbivore;
+import java.util.Map;
+
+public class Boar extends Herbivore {
+    public Boar() {
+        super("Кабан", 400, 50, 2, 50, Map.of("Растения", 100, "Мышь", 50, "Гусеница", 90));
+    }
+}
